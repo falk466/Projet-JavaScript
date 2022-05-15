@@ -7,10 +7,9 @@
 
 ##### ouverture d'un fichier csv 
 
-    ```
-    const csv = fs.readFileSync('./fr-en-resultats-detailles-au-dnb.csv', 'utf8')
-
-    ```
+```
+const csv = fs.readFileSync('./fr-en-resultats-detailles-au-dnb.csv', 'utf8')
+```
 
 ##### conversion au format Json
 
