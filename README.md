@@ -7,7 +7,7 @@
 
 ##### ouverture d'un fichier csv 
 
-    ```node
+    ```
     const csv = fs.readFileSync('./fr-en-resultats-detailles-au-dnb.csv', 'utf8')
 
     ```
