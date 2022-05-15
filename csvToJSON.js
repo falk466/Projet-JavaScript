@@ -1,7 +1,7 @@
 const csvToArray = csvText =>
     csvText
     .split('\n')
-    .map(item => item.split(','))
+    .map(item => item.split(';'))
 
     .filter(item => item[0] !== '');
 
